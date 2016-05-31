@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Word Search</title>
+	
+	<link rel='stylesheet' type='text/css' href='main.css' />
+	<link rel='stylesheet' type='text/css' href='../css/smoothness/jquery-ui-1.8.5.custom.css' />
+	
+	<script src="../js/jquery-1.4.2.min.js" language="javascript"></script>
+	<script src="../js/jquery-ui-1.8.5.custom.min.js" language="javascript"></script>
+	<script src="word_gen2.js" language="javascript"></script>
+	<script src="main2.js" language="javascript"></script>
+</head>
+
+<body>
+	<h2>Word Search</h2>
+	
+	<table cellspacing=0 cellpadding=0 border=0 align=center>
+		<tr>
+			<td width=720>
+				<table id="WordTable" cellspacing=0 cellpadding=0 border=1 align=center></table>
+			</td>
+			<td width=80 style="text-align:left; vertical-align: top;">
+				<ul id="WordList"></ul>
+			</td>
+		</tr>
+	</table>
+	
+	<div id="Control">
+		<select id="Level">
+			<option value="6">Level 1</option>
+			<option value="8">Level 2</option>
+			<option value="10">Level 3</option>
+			<option value="12" selected>Level 4</option>
+			<option value="15">Level 5</option>
+		</select>
+		<button id="NewQuiz" class="button">New Quiz</button>
+	</div>
+		
+	<div id="Award" title="Good job!">
+		<img id="Praise" src="../images/praise6.jpg"></img>
+	</div>
+</body>
+</html>

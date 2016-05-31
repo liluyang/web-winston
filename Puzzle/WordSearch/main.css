@@ -1,0 +1,38 @@
+body {
+	background-color:	#E0E0E0;
+	text-align: 		center;
+}
+
+#WordTable {
+	width:				100%;
+	height:				480px;
+	position:			relative;
+	border-collapse:	collapse;
+	
+	font-size:			32px; 		
+}
+
+#Control {
+	position:			absolute;
+	width:				320px;
+	height:				20px;
+	top:				20px;
+	right:				0;
+}
+
+#InputWords {
+	width:				600px;	
+}
+
+#Award {
+	display:			none;	
+}
+
+.found {
+	font-weight:		bold;
+	color:				red;	
+}
+
+.selected {
+	background-color:	#80FF80;
+}

@@ -1,0 +1,39 @@
+body {
+	background-image: 	url('../images/background.png');
+	text-align: 		center;
+}
+
+#Panel {
+	width:				440px;
+	height:				440px;
+	background-color:	#d26773;
+	margin:				0 auto;	
+	padding:			0;
+}
+
+#Puzzle {
+	width:				336px;
+	height:				336px;
+	position:			relative;
+	top:				50px;
+}
+
+#Control {
+	margin-top:			20px;	
+}
+
+#Regret {
+	margin-left:		50px;
+}
+
+#Reset {
+	margin-left:		10px;	
+}
+
+#Solution {
+	width:				600px;
+	margin:				20px auto;	
+	display:			none;
+	text-align:			left;
+}
+
